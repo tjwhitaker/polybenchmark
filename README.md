@@ -1,6 +1,17 @@
 # Polybenchmark
 
-Baseline Results
+Parameters:
+
+- `machine-info` &mdash; print CPU Specs
+- `read-environment` &mdash; read environment file
+- `read-counters` &mdash; read papi counter file
+- `measurement` &mdash; ["time", "counters"]
+- `explore-threads` &mdash; number of threads
+- `explore-problem-size` &mdash; matrix size
+- `polybench-source` &mdash; source file to benchmark
+- `command` &mdash; executable
+
+# Baseline Results
 
 julia tuning.jl --polybench-source datamining/correlation/correlation.c --read-environment openmp_env.txt --read-counters counters.list --measurement counters
 
