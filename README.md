@@ -1,4 +1,4 @@
-# HW4
+# Polybenchmark
 
 Baseline Results
 
@@ -453,7 +453,7 @@ correlation_8 PAPI_VEC_DP:       237720381 / 237720381 / 2.37720381e8
 
 # Vectorization
 
-Well, since I already did part one of this assignment with -O3 enabled, I'm going to use this section to compare against the default correlation.c implementation.
+Well, since I already did part one of this project with -O3 enabled, I'm going to use this section to compare against the default correlation.c implementation.
 
 correlation.c no threads no optimization (-O0)
 ```
